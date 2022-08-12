@@ -1,0 +1,9 @@
+set MN=41
+set PN=44
+set SM=40
+set MNg=450
+set PNg=50
+set SMg=1500
+set GOLD=141753
+set ADMIN=FALSE
+set DAY=0

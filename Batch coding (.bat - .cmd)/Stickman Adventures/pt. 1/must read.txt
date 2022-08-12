@@ -1,0 +1,1 @@
+If you cannot load levels, open the game from cmd.exe or enter "3" from main menu of the game, hit ENTER, then type "game" and hit ENTER again.

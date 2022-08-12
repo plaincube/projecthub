@@ -1,0 +1,6 @@
+HELP
+leave - leaves the game
+mine - mines
+sword - shows your swords and buy swords
+pick - shows your pickaxes and buy pickaxes
+vpnsrv - shows the server you are running on
