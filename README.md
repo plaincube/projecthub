@@ -8,3 +8,6 @@ Stickman Adventures
 TextMine
 TextMine Beta
 TextMine VPN
+
+# Upcoming Projects
+Custom C&C installers: RA2+YR, RA3+Uprising
