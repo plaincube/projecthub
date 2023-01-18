@@ -1,7 +1,7 @@
 # projecthub
 My own Project Hub!
 
-# Batch programming:
+# Batch programming
 Non-Stop CMD  
 NonStop2 (Non-Stop CMD 2)  
 Ricky's Secret Files  
