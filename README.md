@@ -11,6 +11,6 @@ TextMine Beta
 TextMine VPN  
 
 # Upcoming projects
-Custom C&C installers: 
+Custom C&C installers:  
 RA2+YR  
 RA3+Uprising  
