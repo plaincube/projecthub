@@ -14,10 +14,10 @@ echo -==Installation==-
 echo +================+
 set /p yrdir=Yuri's Revenge directory (without quotes): 
 set /p modir=Mental Omega directory (without quotes, install folder): 
-wget https://www.moddb.com/downloads/mirror/115776/130/ebf97ac5a6634402408a53d7ce7a795d -P "%modir%\dltemp" -O "MentalOmega330Mod.zip"
-wget https://www.moddb.com/downloads/mirror/222694/128/3b78fe7c3b657cb7967aaf66e44972eb -P "%modir%\dltemp" -O "MentalOmega336Patch.zip"
-wget https://www.moddb.com/downloads/mirror/115815/130/4b524902b73181cf1b35215c6fdbcb5c -P "%modir%\dltemp" -O "MentalOmega330Soundtrack.zip"
-wget https://www.moddb.com/downloads/mirror/204779/130/7916706235536515eacb70b8ddd1513a -P "%modir%\dltemp" -O "MentalOmega330SoundtrackPart2.zip"
+wget https://www.moddb.com/downloads/mirror/115776/130/ebf97ac5a6634402408a53d7ce7a795d -O "%modir%\dltemp\MentalOmega330Mod.zip"
+wget https://www.moddb.com/downloads/mirror/222694/128/3b78fe7c3b657cb7967aaf66e44972eb -O "%modir%\dltemp\MentalOmega336Patch.zip"
+wget https://www.moddb.com/downloads/mirror/115815/130/4b524902b73181cf1b35215c6fdbcb5c -O "%modir%\dltemp\MentalOmega330Soundtrack.zip"
+wget https://www.moddb.com/downloads/mirror/204779/130/7916706235536515eacb70b8ddd1513a -O "%modir%\dltemp\MentalOmega330SoundtrackPart2.zip"
 echo Download complete!
 pause
 cls
