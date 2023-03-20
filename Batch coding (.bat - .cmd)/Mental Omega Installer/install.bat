@@ -1,5 +1,6 @@
 @echo off
 title Mental Omega
+set %localinst% =%cd%
 echo +==Mental Omega==+
 echo This program will install Mental Omega on your computer.
 echo If you have not patched YR and RA2 to v1.001 and v1.006 respectively,
@@ -42,12 +43,10 @@ echo +================+
 echo -==Mental Omega==-
 echo -==Installation==-
 echo +================+
-cd "%modir%"
-cd dltemp
-7za e -y -aoa MentalOmega330Mod.zip -o/../
-7za e -y -aoa MentalOmega336Patch.zip -o/../
-7za e -y -aoa MentalOmega330Soundtrack.zip -o/../
-7za e -y -aoa MentalOmega330SoundtrackPart2.zip -o/../
+"%localinst%\7za e -y -aoa MentalOmega330Mod.zip -o/../"
+"%localinst%\7za e -y -aoa MentalOmega336Patch.zip -o/../"
+"%localinst%\7za e -y -aoa MentalOmega330Soundtrack.zip -o/../"
+"%localinst%\7za e -y -aoa MentalOmega330SoundtrackPart2.zip -o/../"
 echo Extraction complete!
 
 title MO Install - Performing Cleanup
