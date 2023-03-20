@@ -1,6 +1,5 @@
 @echo off
 title Mental Omega
-set /p %localinst%=Installer dir (without quotes): 
 echo +==Mental Omega==+
 echo This program will install Mental Omega on your computer.
 echo If you have not patched YR and RA2 to v1.001 and v1.006 respectively,
@@ -36,6 +35,7 @@ copy ra2.mix "%modir%\ra2.mix"
 copy ra2md.mix "%modir%\ra2md.mix"
 copy language.mix "%modir%\language.mix"
 copy langmd.mix "%modir%\langmd.mix"
+roboycopy 7z "%modir%\dltemp"
 echo Copying complete!
 
 title MO Install - Extracting Files
@@ -43,10 +43,10 @@ echo +================+
 echo -==Mental Omega==-
 echo -==Installation==-
 echo +================+
-"%localinst%\7za e -y -aoa MentalOmega330Mod.zip -o/../"
-"%localinst%\7za e -y -aoa MentalOmega336Patch.zip -o/../"
-"%localinst%\7za e -y -aoa MentalOmega330Soundtrack.zip -o/../"
-"%localinst%\7za e -y -aoa MentalOmega330SoundtrackPart2.zip -o/../"
+"%modir%\dltemp\7za e -y -aoa MentalOmega330Mod.zip -o/../"
+"%modir%\dltemp\7za e -y -aoa MentalOmega336Patch.zip -o/../"
+"%modir%\dltemp\7za e -y -aoa MentalOmega330Soundtrack.zip -o/../"
+"%modir%\dltemp\7za e -y -aoa MentalOmega330SoundtrackPart2.zip -o/../"
 echo Extraction complete!
 
 title MO Install - Performing Cleanup
