@@ -1,6 +1,6 @@
 @echo off
 title Mental Omega
-set %localinst% =%cd%
+set /p %localinst% =%cd%
 echo +==Mental Omega==+
 echo This program will install Mental Omega on your computer.
 echo If you have not patched YR and RA2 to v1.001 and v1.006 respectively,
