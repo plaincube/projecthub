@@ -35,7 +35,7 @@ copy ra2.mix "%modir%\ra2.mix"
 copy ra2md.mix "%modir%\ra2md.mix"
 copy language.mix "%modir%\language.mix"
 copy langmd.mix "%modir%\langmd.mix"
-roboycopy 7z "%modir%\dltemp"
+robocopy 7z "%modir%\dltemp"
 echo Copying complete!
 
 title MO Install - Extracting Files
