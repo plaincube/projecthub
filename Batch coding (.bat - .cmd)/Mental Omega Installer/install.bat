@@ -57,7 +57,7 @@ echo -==Installation==-
 echo +================+
 cd..
 set /p cleanyn=Would you like to delete the downloaded leftover files? [Y/N]
-if %cleanyn% == y rmdir dltemp
+if %cleanyn% == y rmdir "..\dltemp"
 if %cleanyn% == n explorer "%modir%\dltemp"
 echo Done installing!
 pause
