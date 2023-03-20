@@ -43,10 +43,11 @@ echo +================+
 echo -==Mental Omega==-
 echo -==Installation==-
 echo +================+
-"%modir%\dltemp\7za e -y -aoa MentalOmega330Mod.zip -o/../"
-"%modir%\dltemp\7za e -y -aoa MentalOmega336Patch.zip -o/../"
-"%modir%\dltemp\7za e -y -aoa MentalOmega330Soundtrack.zip -o/../"
-"%modir%\dltemp\7za e -y -aoa MentalOmega330SoundtrackPart2.zip -o/../"
+cd "%modir%\dltemp"
+"%modir%\dltemp\7za" e -y -aoa MentalOmega330Mod.zip -o"%modir%"
+"%modir%\dltemp\7za" e -y -aoa MentalOmega336Patch.zip -o"%modir%"
+"%modir%\dltemp\7za" e -y -aoa MentalOmega330Soundtrack.zip -o"%modir%"
+"%modir%\dltemp\7za" e -y -aoa MentalOmega330SoundtrackPart2.zip -o"%modir%"
 echo Extraction complete!
 
 title MO Install - Performing Cleanup
